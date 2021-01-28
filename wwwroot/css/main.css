@@ -1,0 +1,80 @@
+﻿/*Aubrey Farnbach (Wright) Section 2 Group 1*/
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #585858;
+}
+
+label {
+    font-size: 20px;
+    color: blue;
+    width: 160px;
+    display: inline-block;
+}
+
+/* Container that holds the floating divs*/
+.float-container {
+    border: 3px solid #fff;
+    padding: 0px;
+}
+
+/*Left floating div*/
+.float-child-l {
+    width: 45.5%;
+    height: 350px;
+    float: left;
+    padding: 20px;
+    border: 2px solid grey;
+}
+
+/*Right floating div*/
+.float-child-r {
+    width: 45.5%;
+    height: 350px;
+    float: right;
+    padding: 20px;
+    border: 2px solid grey;
+}
+
+/*Formats error message for form validation*/
+form .error {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+/* Add a black background color to the top navigation */
+.grey_footer {
+    background-color: #333;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+    .grey_footer a {
+        color: #f2f2f2;
+        text-decoration: none;
+    }

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<!--Aubrey Farnbach (Wright) Section 2 Group 1-->
+<!--Credit for floating side-by-side div code: https://coder-coder.com/display-divs-side-by-side/-->
+<head>
+    <!--Title as displayed on tab-->
+    <title>@ViewBag.Title</title>
+    <!--Link to stylesheet-->
+    <link href="~/css/main.css" rel="stylesheet" />
+    <!--Link to goat image displayed on tab-->
+    <link rel="icon" href="~/img/goat.jpg" sizes="16x16">
+</head>
+
+<body>
+    <header>
+
+        <h1 style="text-align:center">@ViewBag.Header</h1>
+        <menu>
+            <div class="topnav">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="Home" asp-action="GradeCalculator">Grade Calculator</a>
+            </div>
+        </menu>
+    </header>
+
+    <!--This is where the page content goes-->
+    <div>
+        @RenderBody()
+    </div>
+
+    <div class="grey_footer">
+        <footer style="text-align:center">
+            <a href="https://en.wikipedia.org/wiki/Goat">Learn More About Goats</a>
+            <a href="/">     |     </a>
+            <a href="https://en.wikipedia.org/wiki/Hippopotamus">Learn More about Hippos</a>
+        </footer>
+    </div>
+
+
+    <!--Links to files-->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/js/form-validation.js"></script>
+    <script src="~/js/Project2.js"></script>
+</body>
+
+</html>

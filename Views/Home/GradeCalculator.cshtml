@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "ASP.NETRocks";
+    ViewBag.Header = "Aubrey Farnbach (Wright)";
+}
+<body>
+    <!--This form accepts the user's percentage out of 100 earned in each category then claculates their letter and percentage final grade-->
+    <div class="float-container">
+        <div class="float-child-l">
+            <h2>Grade Calculator</h2>
+            <p>Enter your percentage earned in each category</p>
+            <form name="GradeCalculator">
+                <label>Assignments: </label>
+                <input name="Assignments" id="Assignments" />
+                <br />
+                <label>Group Project: </label>
+                <input name="Group_Project" id="Group_Project" />
+                <br />
+                <label>Quizzes: </label>
+                <input name="Quizzes" id="Quizzes" />
+                <br />
+                <label>Exams: </label>
+                <input name="Exams" id="Exams" />
+                <br />
+                <label>Intex: </label>
+                <input name="Intex" id="Intex" />
+                <br />
+                <br />
+                <input type="submit" value="Calculate Grade" id="submitbutton" />
+            </form>
+        </div>
+        <!--This div contains an adourable picture of a hippo-->
+        <div class="float-child-r">
+            <img src="https://www.wtnh.com/wp-content/uploads/sites/100/2020/03/San-Diego-Zoo-baby-hippo-and-mama-03012020.jpg?w=1280" style="height:340px; width:100%" />
+        </div>
+    </div>
+</body>
